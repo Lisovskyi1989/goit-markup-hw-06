@@ -436,24 +436,27 @@
             <form class="contact-form">
                 <p class="contact-form-name">Оставьте свои данные, мы вам перезвоним</p>
                 <label class="contact-form-field">
-                    Имя
-                    <input type="text" class="contact-form" name="contact-form-name" required>
+                    <span class="contacts-name">Имя</span> 
+                    <input type="text" class="contact-form-input" name="contact-form-name" required>
                 </label>
                 <label class="contact-form-field">
-                    Телефон
-                    <input type="tel" class="contact-form" name="contact-form-phone" required>
+                     <span class="contacts-name">Телефон</span>
+                    <input type="tel" class="contact-form-input" name="contact-form-phone" required>
                 </label>
                 <label class="contact-form-field">
-                    Почта
-                    <input type="email" class="contact-form" name="contact-form-email" required>
+                    <span class="contacts-name">Почта</span>
+                    <input type="email" class="contact-form-input" name="contact-form-email" required>
                 </label>
                 <label class="contact-form-field">
-                    Комментарий
-                    <textarea name="user-message" class="contact-form-message" placeholder="Введите текст">
+                     <span class="contacts-name">Комментарий</span>
+                    <textarea 
+                    name="user-message" 
+                    class="contact-form-message" 
+                    placeholder="Введите текст">
                     </textarea>
                 </label>
                 <div class="contact-form-checkbox-wrapper">
-                    <input type="checkbox" class="contact-form-checkbox" name="contact-form-checkbox">
+                    <input type="checkbox" class="contact-form-checkbox" name="contact-form-checkbox" required>
                     <label for="" class="contact-form-checkbox-label">
                         Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> 
                     </label>
