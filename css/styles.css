@@ -890,6 +890,11 @@ color: rgba(117, 117, 117, 0.5);
   height: 15px;
 }
 
+.contact-form-checkbox:checked + .contact-form-checkbox-label::before{
+  background-color: var(--accent-color);
+
+}
+
 .contact-form-checkbox-label{
   font-family: 'Roboto';
   font-style: normal;
@@ -897,8 +902,20 @@ color: rgba(117, 117, 117, 0.5);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
   
   color: #757575;
+}
+
+.contact-form-checkbox-label::before{
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 7px;
 }
 
 .contacts-name{
