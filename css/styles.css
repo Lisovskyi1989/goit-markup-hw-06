@@ -913,13 +913,14 @@ color: rgba(117, 117, 117, 0.5);
 
 .contact-form-checkbox-label::before{
   content: '';
+  background-image: url(/images/border-checkbox.svg);
   display: inline-block;
   width: 16px;
   height: 15px;
   border-radius: 2px;
   cursor: pointer;
   margin-right: 7px;
-  background-image: url(/images/border-checkbox.svg);
+  
 }
 
 .contact-form-checkbox:focus+.contact-form-checkbox-label::before{
